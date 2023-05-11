@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="icon" type="image/x-icon" href="./static/icon.jpeg">
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>   
+    <div class="main">
+        <div class = "container">
+            <div class="box">
+                <h1 class="name">Tunify</h1>
+                <form action="/createac" class="login-form" method="POST">
+                    <div class="field">
+                        <input id="User ID" name="User ID" placeholder="User ID" />
+                        <label for="User ID">User ID</label>
+                    </div>
+                    <div class="field">
+                        <input id="Username" name="Username" placeholder="Username" />
+                        <label for="Username">Username</label>
+                    </div>
+                    <div class="field">
+                        <input id="Gender" name="Gender" placeholder="Gender" />
+                        <label for="Gender">Gender</label>
+                    </div>
+                    <div class="field">
+                        <input id="Email" name="Email" placeholder="Email" />
+                        <label for="Email">Email</label>
+                    </div>
+                    <div class="field">
+                        <input id="Password" name="Password" placeholder="Password" />
+                        <label for="Password">Password</label>
+                    </div>
+                    <div class="field">
+                        <input id="Usertype" name="Usertype" placeholder="Usertype" />
+                        <label for="Usertype">User Type</label>
+                    </div>
+                    <div class="field">
+                        <input id="secretkey" name="secretkey" placeholder="secretkey" />
+                        <label for="secretkey">secretkey(admin)</label>
+                    </div>
+                    <button class="login-button" title="Sign Up">Sign Up</button>
+                    <h2 class="errorcr">User Id has already taken!</h2>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
